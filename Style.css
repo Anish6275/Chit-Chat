@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    float: right;
+    list-style-type: circle;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 8px 30px;
+    font-size: 40px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+}
+ul li a:hover{
+    background-color: #fff;
+    color:#081365;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #081365;
+}
+.bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #02aab0, #00cdac);
+}
+.centerdiv{
+    width: calc( 100% - 20%);
+    height: calc( 100% - 30%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, rgba(29, 38, 113,0), rgba(195, 55, 100,0));
+    box-shadow: 0 1px 6px rgba(0,0,0,1) ,0 1px 4px rgba(0,0,0,0);
+}
+#profilepic{
+    width: 360px;
+    height: 360px;
+    position: relative;
+    display: block;
+    margin: auto;
+    
+    
+}
+h1{
+    font-family: 'Turret Road', cursive;
+    text-align: center;
+    color: aliceblue;
+    font-size: 150px;
+    margin-top: 60px;
+    text-shadow: -10px 6px 6px #919191;
+}
+h3{
+    font-family: 'Vibes', cursive;
+    font-size: 30px;
+    font-weight: 3000;
+    text-align: center;
+    color: #bababa;
+}
+.inputbox{
+    font-family: 'Ubuntu', sans-serif;
+    width: calc(100% - 15%);
+    height: 60px;
+    display: block;
+    margin: auto;
+    color: aliceblue;
+    font-size: 38px;
+    border: 6px solid #fff;
+    background: rgba(0,0,0,0);
+    border-radius: 12px;
+    padding: 0 15px; 
+    font-weight: 200;
+}
+::placeholder{
+    color: #cccccc;
+}
+button{
+    width: calc(100% - 35%);
+    height: 60px;
+    display: block;
+    margin: auto;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    border: 1px solid #fff;
+    background: rgba(0,0,0,0);
+    border-radius: 15px;
+    padding: 0 15px; 
+    font-weight: 200;
+    box-shadow: 0 6px 26px rgba(0,0,0,1) ,0 1px 4px rgba(0,0,0,0);
+}
+button:hover{
+    color: rgb(195, 55, 100);
+    background: aliceblue;
+}
+h4{
+    color: aliceblue;
+    text-align: center;
+    margin: 60px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+h5{
+    color: #b2b2b2;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
